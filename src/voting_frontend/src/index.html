@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -8,35 +8,37 @@
 </head>
 <body>
     <header>
-        <h1>CR Elections</h1>
+      <h1><span class = "larger-text">C.R. E</span>LECTIONS</h1>
     </header>
-
+  <div class = "yellow-bubb1" ><h3><span class= "hemlo"><span class="larger-text">E</span>MAIL <span class = "larger-text">V</span>ERIFICATION</span> </h3> </div>
     <section id="email-validation">
-        <h2>Enter email</h2>
+        <div class="email-field1"><h2><span class= "mrigank"><span class = "larger-text">E</span>NTER <span class="larger-text">E</span>MAIL</span></h2></div>
         <form id="email-form">
             <input type="email" id="email-field" name="email" required>
         </form>
         <p id="validation-message"></p>
+        <button type="submit">Verify</button>
     </section>
+  
 
     <section id="candidates">
-        <h2>Registered Candidates</h2>
+        <h2><span class = "larger-text"> C</span>ANDIDATES</h2> <br>
         <form id="radioForm">
             <label>
-                <input type="radio" name="option" value="Anoop Saini"> Anoop Saini
-            </label><br>
+                <div class= "left-candidate"><input type="radio" name="option" value="Anoop Saini"><b> Anoop Saini </b></div>
+            </label>
             <label>
-                <input type="radio" name="option" value="Ayush Gupta"> Ayush Gupta
-            </label><br>
+                <div class="center-candidate"><input type="radio" name="option" value="Ayush Gupta"><b>Ayush Gupta</b>
+            </div></label>
             <label>
-                <input type="radio" name="option" value="Gorantla Srinivas"> Gorantla Srinivas
-            </label><br>
-            <br><button type="submit">Vote</button>
+                <div class = "right-candidate"><input type="radio" name="option" value="Gorantla Srinivas"><b>Gorantla Srinivas </b>
+                </div></label>
+            <br><div class="spacing"><button type="submit">Vote</button></div>
         </form>
     </section>
 
     <section id="results">
-        <h2>Election Results</h2>
+        <h2><span class="larger-text">E</span>LECTION <span class="larger-text">R</span>ESULTS</h2>
         <div id="result-info">
         </div>
     </section>
